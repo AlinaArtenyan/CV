@@ -1,0 +1,205 @@
+
+@font-face {
+	font-family: NiseBuschGardens;
+	src: url(../fonts/NiseBuschGardens.ttf);
+}
+h1, .BigTable, .foot_1, .foot_2,.foot_3, .box3d2, .box3d,  .tv, .runtext-container, .holder, .text-container, .vawes, #wave, .wave_1, .wave_2, .scroll, .dropDowns, .pulse1, .pulse2, .pulse3, .pulse4, .projection, .wrap {
+	display: none;
+}
+* {
+/*box-shadow: 0 0 0 1px red inset;*/
+}
+body {
+  background-image: url(../Image/Ab.jpg);
+	background-size: cover;
+	display: table;
+}
+.pg {
+    opacity: 0;
+}
+
+.photo {
+    width: 157px;
+    
+    right: -4px;
+    top: 76px;
+    position: absolute;
+    
+    filter: contrast(200%) brightness(150%);
+    -webkit-filter: opacity(20%);
+  }
+.MyCv {
+  width: 920px;
+
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 26px auto 0;
+  position: relative;
+}
+.MyCv:before, .MyCv:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.MyCv:before {
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+.MyCv:after {
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+tr {
+   height: 35px;
+}
+td, th, a, select {
+    color: #00494e;
+    font-family: NiseBuschGardens;
+    font-size:20px;
+}
+tbody:nth-of-type(1) tr:nth-of-type(5) th:nth-of-type(3) {
+    text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(6) th:nth-of-type(3) {
+    text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(3) td {
+    font-style: italic;
+}
+tbody:nth-of-type(1) th {
+    text-align: right;
+    font-family: NiseBuschGardens;
+
+    padding-right: 7px;
+}
+tbody:nth-of-type(2) th, tbody:nth-of-type(2) td {
+  text-align: center;
+}
+table {
+    counter-reset: section;
+
+    animation: table 2s ease-in;
+    transform: scale(0.8);
+}
+table:before {
+    height: 178px;
+    width: 226px;
+    
+    position: absolute;
+    z-index: 1;
+    top: -73px;
+    left: 610px;
+
+    content: "";
+    background: url(../Image/cvlogo.png);
+    background-size: cover;
+    display: inline-block;
+
+    transform: rotate(42deg);
+    animation: stamp 3s ease-in;
+}
+caption {
+    font-size: 45px;
+    font-family: NiseBuschGardens;
+    color: #bcd4e6;
+ }
+.teletype{
+    height: 30px;
+    width: 456px;
+
+    position: relative;
+
+    display: table;
+
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+
+   
+    animation: table 4s ease-in;
+    transform: scale(0.8);
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+tbody:nth-of-type(1) tr:nth-of-type(5) td:nth-of-type(2) select {
+  width: 80px;
+}
+.ogma {
+    font-family: Texas Woman Demo;
+    color: #bcd4e6;
+    font-size: 20px;
+
+    font-weight: bold;
+    text-shadow: -1px 2px 2px #636074;
+
+    transition: .7s;
+}
+.ogma:hover {
+    transition: .7s;
+}
+.fb, .gmail, .w3schools {
+    height: 30px;
+    width: 30px;
+
+    float: right;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 4px rgba(0,0,0,0.5);
+
+    opacity: 0.8;
+
+    transition: .3s;
+}
+.fb:hover, .gmail:hover, .w3schools:hover {
+
+    transform: scale(1.1);
+    transition: .3s;
+}
+.fb {
+    background-image: url(../Image/facebookk.png);
+    background-size: cover;
+
+    margin-right: 0;
+    margin-left: 5px;
+}
+.gmail {
+    background-image: url(../Image/gl.png);
+    background-size: cover;
+
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.w3schools {
+    background-image: url(../Image/twitter.png);
+    background-size: cover;
+
+    margin-right: 5px;
+}
+@keyframes stamp {
+    0%, 80% {
+        transform: scale(3) rotate(5deg);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1) rotate(42deg);
+        opacity: 1;
+    }
+}
+@keyframes table {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

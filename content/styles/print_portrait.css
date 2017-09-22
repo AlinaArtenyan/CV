@@ -1,0 +1,295 @@
+
+@font-face {
+	font-family:Eraser;
+	src: url(../fonts/EraserRegular.ttf);
+}
+@font-face {
+	font-family: AppleSpice;
+	src: url(../fonts/AppleSpice.ttf);
+}
+
+@media screen and (min-width: 4000px) {
+  tbody:nth-of-type(2) tr th {
+    font-size: 5px;
+  }
+  tbody:nth-of-type(1) th {
+    font-size: 5px;
+  }
+  tbody:nth-of-type(1) td {
+    font-size: 5px;
+  }
+  tbody:nth-of-type(1) th:nth-of-type(1):before {
+    font-size: 5px;
+  }
+  select {
+    font-size: 5px;
+  }
+}
+* {
+    padding: 0;
+     margin: 0;
+    /*box-shadow: 0 0 0 1px red inset; */
+}
+body {
+    display: table;
+}
+
+h1, .BigTable, .separator, .box3d2, .box3d, .tv, .runtext-container, .holder, .text-container, .teletype, .scroll, .dropDowns, .projection, .wrap {
+	display: none;
+}
+.pg {
+    opacity: 0;
+}
+
+body {
+    background-color: #163040;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.5" fill="%23FFFFFF" cx="28.75" cy="22.338" r="0.713"/><circle opacity="0.2" fill="%23FFFFFF" cx="26.75" cy="79.443" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="50" cy="41.884" r="0.308"/><circle fill="%23FFFFFF" cx="12.883" cy="42.25" r="0.367"/><circle opacity="0.4" fill="%23FFFFFF" cx="80" cy="72.818" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="55.625" cy="12.375" r="0.308"/><circle opacity="0.2" fill="%23FFFFFF" cx="73.307" cy="89.375" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="73" cy="53.884" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="38.875" cy="89.432" r="0.385"/></svg>');
+    background-size: 20rem 20rem;
+    background-position: center 0;
+    animation: bg 2s linear infinite;
+}
+.fly {
+    width: 1000px;
+    height: 900px;
+    border-radius: 60%
+    background-color: red;
+    position: relative;
+    display: table;
+}
+.MyCv {
+    width: 907px;
+
+    padding: 0px 50px 50px 51px;
+    margin: auto;
+    background-color: #f0ffff;
+    opacity: .9;
+
+    border-radius: 50px;
+
+    animation: move 3s linear infinite alternate;
+    padding-bottom: 195px;
+    padding-top: 14px;
+}
+
+tbody:nth-of-type(2) th {
+    font-size: 12px;
+
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white;
+}
+table{
+    background: #163040;
+
+    opacity: .9;
+}
+caption{
+    color: #163040;
+	font-size: 30px;
+	font-family: Eraser;
+    text-shadow: 1px 1px 2px #0000CC;
+
+}
+td, th {
+    color: #fad1ee;
+    text-shadow: 1px 1px 2px #000, 0 0 25px #0000CC, 0 0 5px #fff;
+}
+tr {
+
+    line-height: 28px;
+
+    padding: 0 2px 2px 55px;
+    border: 1px #006663;
+}
+
+tbody:nth-of-type(1) tr:nth-of-type(5) th:nth-of-type(3) {
+    text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(6) th:nth-of-type(3) {
+    text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(3) td {
+    font-style: italic;
+} 
+tbody:nth-of-type(1) th {
+    text-align: right;
+}
+tbody:nth-of-type(1) td {
+  padding-left: 15px;
+}
+tbody:nth-of-type(2) td {
+    text-align: center;
+}
+tbody:nth-of-type(2) th {
+    text-align: center;
+}
+
+caption:after {
+    top: 103px;
+    left: 262px;
+    position: absolute;
+
+    content: url(../Image/logo.png);
+
+    opacity: 0.2;
+}
+
+select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px #33cccc, 0 0 25px #0000ff, 0 0 5px #fff;
+}
+
+th {
+    font-family: Eraser;
+    font-size: 15px;
+}
+
+td {
+	font-family: AppleSpice;
+	font-size: 15px;
+}
+
+a {
+    color: #fad1ee;
+
+    text-shadow: 1px 1px 2px #000, 0 0 25px #0000cc, 0 0 5px #fff;
+}
+
+.photo {
+    width:70px;
+    
+    filter: contrast(200%) brightness(150%);
+    -webkit-filter: grayscale(100%);
+}
+
+.foot_1, .foot_2, .foot_3 {
+    position: absolute;
+
+    border-radius: 50%;
+
+    background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+}
+.foot_1 {
+    width: 190px;
+    height: 42px;
+
+    bottom: -95px;
+    left: 161px;
+
+    opacity: .3;
+
+    transform: rotate(-65deg);
+}
+.foot_2 {
+    width: 210px;
+    height: 47px;
+
+    bottom: -122px;
+    left: 417px;
+
+    background: linear-gradient(rgba(227, 227, 227, 0.7) 75%, rgba(227, 227, 227, 0.3));
+    opacity: .5;
+
+    transform: rotate(95deg);
+}
+.foot_3 {
+    width: 190px;
+    height: 42px;
+   
+    bottom: -95px;
+    left: 738px;
+
+    background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+    opacity: .3;
+
+    transform: rotate(65deg);
+}
+
+.pulse1, .pulse2 { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+    opacity: 0;
+
+    margin: auto;
+
+    -moz-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.pulse1 {
+    height: 350px;
+    width: 450px;
+
+    -moz-animation: pulsejg1 2s linear infinite;
+    animation: pulsejg1 2s linear infinite;
+
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+
+    -moz-box-shadow: inset 0px 0px 15px 10px rgba(0, 0, 0, .4);
+    box-shadow: inset 0px 0px 15px 10px rgba(0, 0, 0, .4);
+}
+
+.pulse2 {
+    height: 350px;
+    width: 450px;
+
+    -moz-animation: pulsejg1 2s infinite;
+    animation: pulsejg1 2s infinite;
+
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+
+    -moz-box-shadow: inset 0px 0px 12px 5px rgba(255, 255, 255, .6);
+    box-shadow: inset 0px 0px 12px 5px rgba(255, 255, 255, .6);
+}
+
+
+
+
+@keyframes pulsejg1 {
+    0% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.9);
+        opacity: .1;
+    }
+    70% {
+        transform: scale(2.1);
+        opacity: .25;
+    }
+    80% {
+        transform: scale(2.25);
+        opacity: .1;
+    }
+    100% {
+        transform: scale(2.4);
+        opacity: 0;
+    }
+}
+@keyframes move {
+    from { 
+        transform: rotate(-10deg);
+    }
+    to {
+        transform: rotate(10deg);
+    }
+}
+@keyframes bg {
+    to {
+        background-position: center 230px;
+    }
+}

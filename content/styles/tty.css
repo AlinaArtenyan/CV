@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: fontAwesome;
+    src: url(../fonts/fontawesome-webfont.ttf);
+}
+h1, .foot_1, .foot_2,.foot_3, .box3d2, .box3d, #img_pos, .tv, .runtext-container, .holder, .text-container, .vawes, #wave, .wave_1, .wave_2, .teletype, .scroll, .dropDowns,.pulse1, .pulse2, .pulse3, .pulse4, .projection, .wrap {
+	display: none;
+}
+* {
+/*box-shadow: 0 0 0 1px red inset;
+*/
+}
+.pg {
+    opacity: 0;
+}
+
+body {
+	background: url(../Image/image11.jpg);
+	background-size: cover;
+	display: table;
+}
+table {
+	font-family: fontAwesome;
+	font-size: 17px;
+	background-color: #080808;
+}
+tr {
+	line-height: 35px;
+}
+table caption:before {
+	position: absolute;
+	top: -1px;
+    left: -1px;
+
+	content: url(../Image/user.png);
+}
+tbody:nth-of-type(1),  tbody:nth-of-type(2) {
+	counter-reset: section;
+}
+tbody:nth-of-type(1) th:nth-of-type(1):before {
+	color: #c2c2a3;
+	counter-increment: section;
+	content: counter(section) ".";
+	float: left;
+
+	display: block;
+}
+tbody:nth-of-type(1) tr:nth-of-type(5) th:nth-of-type(3) {
+	text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(6) th:nth-of-type(3) {
+	text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(3) td {
+	font-style: italic;
+}
+tbody:nth-of-type(1) th {
+	color: #ff9900;
+    
+    text-align: right;
+}
+tbody:nth-of-type(1) td {
+	color: #f38400;
+
+	padding-left: 15px;
+}
+tbody:nth-of-type(2) {
+    outline: #c2d6d6 dashed 2px;
+	color: #ff9900;
+	text-align: center;
+}
+tbody:nth-of-type(1) tr:nth-of-type(5) td:nth-of-type(2) select {
+    width: 55px;
+}
+select {
+	color: #f38400;
+
+	background-color: #000;
+	background-opacity: .9;
+}
+a {
+	cursor: pointer;
+	color: #f38400;
+	text-decoration: none;
+}
+q.phone {
+	quotes: '(' ')'
+}
+q.tyro {
+	quotes: '&' '&'
+}
+q.beginner {
+	quotes: "'" "'"
+}
+q.novis {
+	quotes: '[' "']"
+}
+q.no{
+	quotes: "'" ':'
+}
+q.rookie {
+	quotes: '<' '>'
+}
+.MyCv {
+	width: 1000px;
+	
+	position: relative;
+	background-color: #080808;
+	opacity: .8;
+	
+	padding: 0px 50px 50px 20px; 
+	border-radius: 30px;
+	margin: auto;
+	box-shadow: 10px 10px 5px #c2d6d6;
+
+	transform: rotateX(75deg) scale(0.07) skew(5deg,5deg);
+	transition: all 3s;
+}
+.MyCv:hover {
+	transform: none;
+}
+.BigTable img {
+	background-size: cover;
+	display: block;
+	position: absolute;
+
+	margin: auto;
+	padding: 200px 50px 100px 300px;
+
+}
+.BigTable {
+	width: 1000px;
+    
+    position: relative;
+
+    padding: 0 50px 50px 40px;
+    margin: auto;
+    
+    display: block;
+}
+caption {
+	color: #ff9900;
+	font-size: 55px;
+	text-shadow: 2px 2px 2px #fff;
+}
+

@@ -1,0 +1,461 @@
+
+@media screen and (min-width: 4000px) {
+    tbody:nth-of-type(2) tr th {
+        font-size: 5px;
+  }
+    tbody:nth-of-type(1) th {
+        font-size: 5px;
+  }
+    tbody:nth-of-type(1) td {
+        font-size: 5px;
+  }
+    tbody:nth-of-type(1) th:nth-of-type(1):before {
+        font-size: 5px;
+  }
+    select {
+        font-size: 5px; 
+  }
+}
+
+@font-face {
+	font-family: Folia Mix;
+	src: url(../fonts/FoliaMixRegular.ttf);
+}
+
+h1, .BigTable, .foot_1, .foot_2,.foot_3, .box3d2, .box3d, .tv, .runtext-container, .holder, .text-container, .vawes, #wave, .wave_1, .wave_2, caption, .dropDowns,.pulse1, .pulse2, .pulse3, .pulse4, .projection, .wrap {
+	display: none;
+}
+
+.photo{
+	width: 70px;
+}
+
+body {
+	background-color: #bcd4e6;
+	background-size: cover;
+	display: table;
+}
+
+table {
+    background-color: #5b5ea6;
+    border-radius: 15px;
+    counter-reset: section;
+
+    -webkit-animation-name: colors;
+    -webkit-animation-duration: 30s; 
+    animation-name: colors;
+    animation-duration: 110s;
+}
+tbody:nth-of-type(1) th:nth-of-type(1):before {
+    float: left;
+	color: #f2f2b4;
+
+    display: block;
+
+    counter-increment: section;
+	content: counter(section) ".";
+}
+tbody:nth-of-type(1) td {
+    padding-left: 15px;
+}
+tbody:nth-of-type(2) {
+    text-align: center;
+}
+.MyCv {
+    width: 1010px; 
+    
+    padding: 0px 50px 50px 40px;
+    background-color: #f2f2b4;
+    opacity: .8;
+
+    border-radius: 25px;
+    box-shadow: 18px 13px 19px 0px rgba(0,0,0,0.5);
+
+    transform: rotateX(20deg);
+    transition: all 4s;
+    animation: mymove 8s infinite;
+}
+.MyCv:hover {
+    cursor: pointer;
+
+    transform: none;
+}
+th, td {
+    color: #fff;
+    text-shadow: 6px 5px 5px rgba(96, 163, 234, 1);
+
+    font-family: Mountains of Christmas;
+    font-size: 19px;
+}
+a {
+    color:#fff;
+}
+tr {
+    line-height: 35px;
+}
+tbody:nth-of-type(1) tr:nth-of-type(5) th:nth-of-type(3) {
+    text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(6) th:nth-of-type(3) {
+    text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(3) td {
+    font-style: italic;
+}
+tbody:nth-of-type(1) th {
+    text-align: right;
+}
+tbody:nth-of-type(1) tr:nth-of-type(5) td:nth-of-type(2) select {
+    width: 55px;
+}
+main {
+    position: relative;
+
+    vertical-align: middle;
+
+    display: table-cell;
+    margin: auto;
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.teletype{
+    height: 50px;
+    width: 820px;
+
+    position: relative;
+
+    display: table;
+
+    border-radius: 0 0 10px 10px;
+    box-shadow: 18px 20px 65px 5px rgba(0,0,0,0.5);
+    margin: auto;
+}
+.ogma {
+	left: 10px;
+
+    color: #473c28;
+    font-size: 20px;
+    font-family: mystyle;
+    font-weight: bold;
+    text-shadow: -2px 2px 2px #636074;
+
+    transition: .7s;
+}
+.ogma {
+    color: #473c28;
+    font-size: 20px;
+    font-family: mystyle;
+    font-weight: bold;
+    text-shadow: -2px 2px 2px #636074;
+
+    transition: .7s;
+}
+.ogma:hover {
+    font-size: 22px;
+
+    transition: .7s;
+}
+.fb, .gmail, .w3schools {
+    height: 30px;
+    width: 30px;
+
+    float: right;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 4px rgba(0,0,0,0.5);
+
+    opacity: 0.8;
+
+    transition: .3s;
+}
+.fb:hover, .gmail:hover, .w3schools:hover {
+    opacity: 1;
+
+    transform: scale(1.1);
+    transition: .3s;
+}
+.fb {
+    background-image: url(../Image/facebookk.png);
+    background-size: cover;
+
+    margin-right: 0;
+    margin-left: 5px;
+}
+.gmail {
+    background-image: url(../Image/Gmail.png);
+    width: 40px;
+    background-size: cover;
+
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.w3schools {
+    background-image: url(../Image/wschool.png);
+    background-size: cover;
+
+    margin-right: 5px;
+}
+.l1	{
+    top: 0;
+	left: 0;
+
+    position: absolute;
+
+    color:#45b8ac;
+
+    -webkit-animation: bounce 1s ease-out alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l2	{
+    top: 0;
+	left: 1em;
+
+    position: absolute;
+
+    color:#efc050;
+
+	-webkit-animation: bounce 1s ease-out 100ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l3	{
+    top: 0;
+	left: 2em;
+
+    position: absolute;
+
+	color: #5b5ea6;
+	-webkit-animation: bounce 1s ease-out 200ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l4	{
+    top: 0;
+	left: 3em;
+
+    position: absolute;
+
+    color: #9b2335;
+
+    -webkit-animation: bounce 1s ease-out 300ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l5	{
+    top: 0;
+	left: 4em;
+    position: absolute;
+
+    color: #55b4Bb;
+
+	-webkit-animation: bounce 1s ease-out 400ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l6	{
+    top: 0;
+	left: 5em;
+    position: absolute;
+
+	color: #e15d44;
+
+    -webkit-animation: bounce 1s ease-out 500ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l7	{
+    top: 0;
+	left: 6em;
+    position: absolute;
+
+	color: #bc243c;
+
+	-webkit-animation: bounce 1s ease-out 600ms alternate infinite;	
+	-webkit-animation-fill-mode: forwards;
+}
+.l8	{
+    top: 0;
+	left: 7em;
+    position: absolute;
+
+	color: #c3447a;
+
+    -webkit-animation: bounce 1s ease-out 700ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l9	{
+    top: 0;
+	left: 8em;
+    position: absolute;
+
+	color: #98b4d4;
+
+    -webkit-animation: bounce 1s ease-out 800ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l10 {
+    position: absolute;
+	top: 0;
+	left: 9em;
+
+    color: #45b8ac;
+
+    -webkit-animation: bounce 1s ease-out 900ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l11 {
+    position: absolute;
+	top: 0;
+	left: 10em;
+
+	color: #efc050
+
+    -webkit-animation: bounce 1s ease-out 1000ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l12 {
+    position: absolute;
+	top: 0;
+	left: 11em;
+
+    color: #fde706;
+
+    -webkit-animation: bounce 1s ease-out 1100ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l13 {
+    position: absolute;
+	top: 0;
+	left: 12em;
+
+	color:#6e4a75;
+
+    -webkit-animation: bounce 1s ease-out 1200ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l14 {
+    position: absolute;
+	top: 0;
+	left: 13em;
+
+    color: #27a64c;
+
+    -webkit-animation: bounce 1s ease-out 1300ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l15 {
+    position: absolute;
+	top: 0;
+	left: 14em;
+
+    color: #70a3cc;
+
+    -webkit-animation: bounce 1s ease-out 1400ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.l16 {
+    position: absolute;
+	top: 0;
+	left: 15em;
+
+	color: #de6fa1;
+
+    -webkit-animation: bounce 1s ease-out 1500ms alternate infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+.scroll{
+	font-size: 40px;
+	font-family:Folia Mix;
+
+    color: #adadff;
+
+	padding-left: 10px;
+    padding-top: 80px;
+
+    -webkit-animation: scroll 19s linear infinite;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bounce {
+    0%	{
+        -webkit-transform: translateY(50px);
+
+    }
+    100%{
+        -webkit-transform: translateY(0px);
+
+    }
+}
+@-webkit-keyframes scroll{
+    0% {
+        -webkit-transform: translateX(400px);
+    }
+    100% {
+        -webkit-transform: translateX(400px);
+    }
+}
+@keyframes colors{
+    0% {
+        left:0px;
+        top:0px;
+
+        background-color: #45b8ac;
+    }
+    10% {
+        left:200px;
+        top:0px;
+
+        background-color: #efc050;
+    }
+    20% {
+        left:200px;
+        top:200px;
+
+        background-color: #5b5ea6;
+    }
+    30% {
+        left:0px;
+        top:200px;
+
+        background-color: #9b2335;
+    }
+    40% {
+        left:0px;
+        top:0px;
+
+        background-color: #55b4b0;
+    }
+    50% {
+        left:0px;
+        top:0px;
+
+        background-color: #e15d44;
+    }
+    60% {
+        left:200px;
+        top:0px;
+
+        background-color: #bc243c;
+    }
+    70% {
+        left:200px;
+        top:200px;
+
+        background-color: #c3447a;
+    }
+    80% {
+        left:200px;
+        top:200px;
+
+        background-color: #98B4d4;
+    }
+    90% {
+        left:0px;
+        top:0px;
+
+        background-color: #45B8ac;
+    }
+    100% {
+        left:0px;
+        top:0px;
+
+        background-color: #efc050;
+    }
+}

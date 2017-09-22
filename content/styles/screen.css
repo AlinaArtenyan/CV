@@ -1,0 +1,122 @@
+
+@font-face {
+	font-family: Veteran Typewriter;
+	src: url(../fonts/veterantypewriter.ttf);
+}
+@font-face {
+	font-family: Jenna Sue;
+	src: url(../fonts/JennaSue.ttf);
+}
+@font-face {
+	font-family: Drift Wood;
+	src: url(../fonts/Drift___.ttf);
+}
+
+body {
+	background-color: #626258;
+	display: table;
+}
+
+h1, .BigTable, .foot_1, .foot_2, .foot_3, .box3d2, .box3d, #img_pos, .tv, .runtext-container, .holder, .text-container, .vawes, #wave, .wave_1, .wave_2, .teletype, .scroll, .dropDowns, .pulse1, .pulse2, .pulse3, .pulse4, .projection, .wrap {
+	display: none;
+}
+.pg {
+    opacity: 0;
+}
+
+.MyCv {
+  	width: 1000px;
+
+    position: relative;
+
+	background-image: url(../Image/green.jpg);
+	
+	padding: 0px 50px 50px 40px;
+    
+	margin: auto;
+
+	border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.701961) 5px 5px 26px 15px;
+}
+tbody:nth-of-type(2) th {
+	text-align: right;
+
+	font-size: 18px;
+}
+tbody:nth-of-type(2) td {
+	padding-left: 70px;
+}
+tbody:nth-of-type(2) th, tbody:nth-of-type(2) td{
+	text-align: center;
+}
+
+tbody:nth-of-type(1) tr:nth-of-type(5) td:nth-of-type(2) select {
+    width: 55px;
+}
+table:after {
+    height: 150px;
+    width: 150px;
+
+    position: absolute;
+    z-index: 1;
+    top: 270px;
+    left: 910px;
+
+    font-family: Drift___.ttf;
+    content: "";
+
+    background-image: url(../Image/cup1.png);
+    background-size: cover;
+    display: inline-block;
+
+    transition: transform 2s;
+}
+table:hover:after {
+	transform: rotate(360deg);
+	transition: transform 2s;
+}
+table caption:after {
+	width: 100%;
+	top: 110px;
+	left: 435px;
+
+	position: absolute;
+
+	content: url(../Image/new.png);
+}
+
+th {
+	font-family: Veteran Typewriter;
+	color: #660033;
+	font-size: 25px;
+}
+td {
+	font-family: Jenna Sue;
+	font-size: 30px;
+	font-weight: bold;
+	color: #1a1a1a;
+}
+caption {
+	font-size: 50px;
+	font-family: Drift Wood;
+	color: #660033;
+}
+
+select {
+	font-family: Jenna Sue;
+	color: #1A1A1A
+	font-weight: bold;
+	font-size: 25px;
+	background-color: transparent;
+
+	box-shadow: -3px -3px 1px #000, 3px 3px 1px #000;
+	border: none;
+	border-radius: 3px;
+}
+
+a {
+	color: #1a1a1a;
+}
+a:hover {
+	text-decoration: underline;
+}
